@@ -134,6 +134,59 @@ h2{
 #about .Name{
   padding-bottom: 2em;
 }
+#about img{
+  width: 10%;
+  height: 10%;
+  margin-top: 1em;
+}
+
+/*Review Block */
+#reviews .reviewTitle{
+  text-align: left;
+}
+#reviews .review h3{
+  font-size: 20pt;
+  text-align: center;
+}
+#reviews .reviewBlocks{
+  display: flex;
+  flex-direction: row; 
+}
+@media only screen and (max-width: 800px) {
+  #reviews .reviewBlocks{
+    flex-direction: column; 
+  }
+}
+#reviews .review{
+  min-width: 200px;
+  max-width: 400px;
+  width: 20%;
+  border: 3px solid #894b60;
+  border-radius: 1em;
+  text-align: left;
+  box-shadow: 5px 2px;
+  padding: 0px 1em;
+  margin: 1em auto;
+}#reviews .review .name {
+  font-size: 10pt;
+}
+#reviews .review a {
+  text-decoration: none;
+  font-family: 'Quattrocento sans';
+  color: #894b60;
+}
+
+/* Media links */
+#socialMedia {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: fit-content;
+}
+#socialMedia .media img {
+  width: 5em;
+  margin: 10em 5em;
+}
 
 
 
