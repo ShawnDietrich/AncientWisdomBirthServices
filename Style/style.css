@@ -232,7 +232,7 @@ h2{
   color: #894b60;
 }
 
-#bookNow{
+.bookNow{
   background-color: #894b60;
   width: 300px;
   height: 100px;
@@ -240,7 +240,7 @@ h2{
   margin: 2em auto;
   border-radius: 1em;
 }
-#bookNow a{
+.bookNow a{
   text-decoration: none;
   color: #d6c1ad;
   position: relative;
