@@ -31,6 +31,7 @@ h2{
   margin-top: 1em;
 }
 
+
 /* Motto block */
 .mottoBlock {
   text-align: center;
@@ -38,8 +39,11 @@ h2{
   background-color: #b77c7e;
   padding: 10px 0;
 }
-.mottoBlock h2 {
+.mottoBlock p {
   margin: 10px auto;
+  font-family: "RALEWAY";
+  font-weight: bold;
+  font-size: 30pt;
 }
 
 /*What Do doulas do */
