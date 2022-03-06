@@ -3,16 +3,20 @@
 /* Font Senttings*/
 p {
   font-family: 'Quattrocento sans';
-  font-size: 18pt;
+  font-size: 12pt;
 }
 
 h1{
   font-family: 'Rochester', cursive;
- 
+  font-size: 18pt;
 }
 
 h2{
   font-family: 'RALEWAY' ;
+}
+
+h3{
+  font-family: 'RALEWAY';
 }
 
 /* logo and header */
@@ -53,7 +57,7 @@ h2{
 }
 #purpose h1 {
   text-align: left;
-  font-size: 25pt;
+  font-size: 18pt;
 
 }
 #purpose .purposeText{
@@ -62,10 +66,14 @@ h2{
 }
 #purpose h3{
   color: #b77c7e;
-  font-size: 20pt;
+  font-size: 18pt;
 }
 #purpose p{
   font-size: 15pt;
+}
+#purpose .quote h1{
+  text-align: center;
+  font-size: 30pt;
 }
 
 /* Service Block */
@@ -98,12 +106,20 @@ h2{
 #services .service{
   display: flex;
   text-align: left;
+  color: #894b60;
+  font-size: 18pt;
 }
 #services .price{
   margin-left: auto;
 }
 #services .includes{
   font-weight: 100;
+  font-family: 'Quattrocento sans';
+  font-size: 18pt;
+}
+#services .serviceList, .serviceFooter{
+  font-family: 'Quattrocento sans';
+  font-size: 18pt;
 }
 
 /*About Block */
@@ -137,6 +153,9 @@ h2{
 }
 #about .Name{
   padding-bottom: 2em;
+  font-family: 'RALEWAY';
+  color: #894b60;
+  font-size: 18pt;
 }
 #about img{
   width: 10%;
@@ -188,8 +207,8 @@ h2{
   width: fit-content;
 }
 #socialMedia .media img {
-  width: 5em;
-  margin: 10em 5em;
+  width: 4em;
+  margin: 5em 5em;
 }
 
 /*Contact Us*/
@@ -219,34 +238,42 @@ h2{
 .email p, a {
   margin: 1em 1%;
   font-family: 'Quattrocento sans';
-
+  font-size: 12pt;
 }
 .email a {
   color: #894b60;
-  font-size: 18pt;
   text-decoration: none;
 }
 .location h2 {
   font-family: 'RALEWAY';
-  font-weight: bold;
+  font-size: 18pt;
   color: #894b60;
+  text-transform: uppercase;
+}
+.information {
+  font-family: 'Quattrocento sans';
+  font-size: 12pt;;
 }
 
 .bookNow{
-  background-color: #894b60;
-  width: 300px;
-  height: 100px;
   text-align: center;
   margin: 2em auto;
   border-radius: 1em;
 }
+.bookTitle{
+  font-family: 'RALEWAY';
+  color: #894b60;
+  font-size: 18pt;
+}
 .bookNow a{
+  background-color: #894b60;
+  width: 300px;
   text-decoration: none;
   color: #d6c1ad;
-  position: relative;
-  top: 0.5em;
   font-family: 'RALEWAY';
   font-size: 20pt;
+  border-radius: 10px;
+  padding: 1% 1%;
 }
 
 
@@ -266,6 +293,7 @@ h2{
 
 .colLbl{
   font-family: 'Quattrocento sans';
+  font-size: 12pt;
 }
 
  input[type=text]{
@@ -278,20 +306,23 @@ h2{
 }
 
 input[type=submit]{
-  width: 40%;
+  width: 30%;
   background-color: #b77c7e;
   color: #d6c1ad;
-  height: 4em;
-  margin: 0 5%;
+  height: 3em;
+  margin: 1em 10%;
   border-radius: 0.5em;
-  font-size: 15pt;
+  font-size: 18pt;
+  font-family: 'RALEWAY';
 }
 
 input[type=submit]:hover{
   cursor: pointer;
+  background-color:#894b60;
   color: black;
   border: none;
   border-bottom: 2px solid black;
+  box-shadow: 10px 10px 8px #888888;
 }
 .footer{
   margin: 50px auto 1em auto;
