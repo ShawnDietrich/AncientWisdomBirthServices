@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Raleway:wght@200&family=Rochester&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 /* Font Senttings*/
 p {
   font-family: 'Quattrocento sans';
@@ -7,8 +7,9 @@ p {
 }
 
 h1{
-  font-family: 'Rochester', cursive;
-  font-size: 18pt;
+  font-family: 'Great Vibes', cursive;
+  font-size: 30pt;
+  margin-left: 1em;
 }
 
 h2{
@@ -57,7 +58,7 @@ h3{
 }
 #purpose h1 {
   text-align: left;
-  font-size: 18pt;
+
 
 }
 #purpose .purposeText{
@@ -83,11 +84,12 @@ h3{
   padding: 1em 0;
   display: block;
   position: relative;
+  background-color: #d6c1ad;
 }
 #services::after {
   
   content: '';
-  background-image: url(../Content/cover.pink.png);
+  /*background-image: url(../Content/cover.pink.png);*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -189,7 +191,7 @@ h3{
   text-align: left;
   box-shadow: 5px 2px;
   padding: 0px 1em;
-  margin: 1em auto;
+  margin: 1em 1em;
 }#reviews .review .name {
   font-size: 10pt;
 }
@@ -208,7 +210,7 @@ h3{
 }
 #socialMedia .media img {
   width: 4em;
-  margin: 5em 5em;
+  margin: 1.5em 1em;
 }
 
 /*Contact Us*/
@@ -238,7 +240,7 @@ h3{
 .email p, a {
   margin: 1em 1%;
   font-family: 'Quattrocento sans';
-  font-size: 12pt;
+  font-size: 15pt;
 }
 .email a {
   color: #894b60;
@@ -258,7 +260,10 @@ h3{
 .bookNow{
   text-align: center;
   margin: 2em auto;
-  border-radius: 1em;
+
+}
+.bookNow h1 {
+  text-align: left;
 }
 .bookTitle{
   font-family: 'RALEWAY';
